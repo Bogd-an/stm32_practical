@@ -1,7 +1,33 @@
 # .gitignore
 
-*
+# Thank https://theapache64.github.io/git-do-not-ignore/
+# */Core/Src/main.c
+# */Build+Flash/Flash.bat
+# */Build+Flash/*.bin
+# */*.ioc
+# */README.md
+# */READMEfiles/*
+# .gitignore
+# */TestAlgoritm/*
 
-!**/*.ioc
-!**/Flash.bat
-!**/Core/Src/main.c
+!.gitignore
+!*/
+*/*
+!*/*.ioc
+!*/README.md
+!*/Core/
+*/Core/*
+!*/Core/Src/
+*/Core/Src/*
+!*/Core/Src/main.c
+!*/Build+Flash/
+*/Build+Flash/*
+!*/Build+Flash/Flash.bat
+!*/Build+Flash/*.bin
+!*/READMEfiles/
+*/READMEfiles/*
+!*/READMEfiles/*
+!*/TestAlgoritm/
+*/TestAlgoritm/*
+!*/TestAlgoritm/*
+*/TestAlgoritm/*.exe
