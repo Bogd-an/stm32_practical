@@ -9,25 +9,26 @@
 # */READMEfiles/*
 # .gitignore
 # */TestAlgoritm/*
+# */tutorials/*
+
+# ignore 
+
+*/
+
+*/.vscode/
 
 !.gitignore
-!*/
-*/*
+
 !*/*.ioc
 !*/README.md
-!*/Core/
-*/Core/*
-!*/Core/Src/
-*/Core/Src/*
+!*/READMEfiles/
 !*/Core/Src/main.c
-!*/Build+Flash/
-*/Build+Flash/*
 !*/Build+Flash/Flash.bat
 !*/Build+Flash/*.bin
-!*/READMEfiles/
-*/READMEfiles/*
-!*/READMEfiles/*
+
 !*/TestAlgoritm/
-*/TestAlgoritm/*
-!*/TestAlgoritm/*
 */TestAlgoritm/*.exe
+
+!tutorials/
+!tutorials/*/
+
