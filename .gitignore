@@ -1,8 +1,7 @@
 # .gitignore
 
+*
 
 !**/*.ioc
 !**/Flash.bat
 !**/Core/Src/main.c
-
-*
