@@ -50,15 +50,3 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-
-**/.cproject
-**/.mxproject
-**/.project
-**/1pr Debug.cfg
-**/STM32F103C8TX_FLASH.ld
-
-**/.metadata/
-**/.settings/
-**/.Drivers/
-**/.Startup/
-**/.Debug/
