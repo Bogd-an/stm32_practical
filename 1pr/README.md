@@ -67,10 +67,14 @@ void morseBlink(char word[]){
 ## Демонстрація роботи
 
 ## build+flash
-<video autoplay loop muted controls src="READMEfiles/build+flash.mp4" title="build+flash.mp4"></video>
+<!-- <video autoplay loop muted controls src="READMEfiles/build+flash.mp4" title="build+flash.mp4"></video> -->
+
+[![build+flash.mp4](build+flash.jpg)](READMEfiles/build+flash.mp4)
 
 # decode
-<video autoplay loop muted controls src="READMEfiles/decode.mp4" title="morse decode.mp4"></video>
+<!-- <video autoplay loop muted controls src="READMEfiles/decode.mp4" title="morse decode.mp4"></video> -->
+
+[![morse decode.mp4](READMEfiles/decode.jpg)](READMEfiles/decode.mp4)
 
 ---
 
