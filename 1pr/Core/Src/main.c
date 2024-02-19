@@ -55,7 +55,9 @@
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
-
+void blinkCode(char code);
+int charsLen(char str[]);
+void morseBlink(char word[]);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -103,12 +105,13 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	  morseBlink(name);
-//	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
-//	  HAL_Delay(100);
-//	  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
-//	  HAL_Delay(100);
+    // //  DEBUG
+	  // HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
+	  // HAL_Delay(100);
+	  // HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+	  // HAL_Delay(100);
 
+	  morseBlink(name); // Додаткове
   }
   return 0;
   /* USER CODE END 3 */
@@ -217,14 +220,13 @@ int charsLen(char str[]){
 void morseBlink(char word[]){
 	int wordLen = charsLen(word);
 	for (int letterI= 0; letterI < wordLen; letterI++){
-		int letterIndex = (int)word[letterI] - (int)'A';
+		int letterIndex = (int)word[letterI] - (int)'A'; // (int)'A' == 65
 		// не працює char morseCode[6] = morseAlphabet[ letterIndex ];
 		// нехай morseCode == morseAlphabet[letterIndex]
 		// Хз як копіювати масиви у с, тому костиль
 		int morseCodeLen = charsLen(morseAlphabet[letterIndex] );
 		for (int codeI= 0; codeI < morseCodeLen; codeI++){
 			blinkCode(morseAlphabet[letterIndex][codeI]);
-
 		}
 		HAL_Delay(DelayLetter);
 	}

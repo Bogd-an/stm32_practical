@@ -1,4 +1,4 @@
-# Morse code BluePill
+# Morse code BluePill STM32F103C8
 
 [Увесь код для мікроконтроллера](Core/Src/main.c)
 
@@ -12,6 +12,14 @@
 #define DelayLetter DelayDot * 2 // + DelayDot
 #define DelayWord   DelayDot * 4 // + DelayLetter
 ```
+
+### USER CODE BEGIN PFP
+``` c
+void blinkCode(char code);
+int charsLen(char str[]);
+void morseBlink(char word[]);
+```
+
 
 ###  `int Main()` доповнено:
 ``` c
@@ -51,7 +59,7 @@ int charsLen(char str[]){
 void morseBlink(char word[]){
 	int wordLen = charsLen(word);
 	for (int letterI= 0; letterI < wordLen; letterI++){
-		int letterIndex = (int)word[letterI] - (int)'A';
+		int letterIndex = (int)word[letterI] - (int)'A'; // (int)'A' == 65
 		// char morseCode[6] = morseAlphabet[ letterIndex ];
 		// Не працює, а з вказівниками працювати не вмію :(
 		int morseCodeLen = charsLen(morseAlphabet[letterIndex] );
