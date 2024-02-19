@@ -13,15 +13,38 @@
 
 # ignore 
 
-*/
+
+# */
 
 */.vscode/
+*/.vscode/*
+stm32_practical.code-workspace
+
+*/.metadata/
+*/.settings/
+*/Debug/
+*/Drivers/
+*/Core/Inc/
+*/Core/Startup/
+*/Core/Src/
+*/Build+Flash/
+*/Build+Flash/*
+*/.cproject
+*/.mxproject
+*/.project
+*/*Debug.cfg
+*/*Debug.launch
+*/STM32F103C8TX_FLASH.ld
+
 
 !.gitignore
+
+!/1pr/askAnswer.md
 
 !*/*.ioc
 !*/README.md
 !*/READMEfiles/
+!*/READMEfiles/*
 !*/Core/Src/main.c
 !*/Build+Flash/Flash.bat
 !*/Build+Flash/*.bin
