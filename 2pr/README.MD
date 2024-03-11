@@ -10,7 +10,7 @@
 ---
 [Увесь код main.c](Core/Src/main.c)
 
-[Відос з прикладом роботи](https://github.com/Bogd-an/stm32_practical/raw/main/2pr/READMEfiles/PLAYpr2.3TestCode.html)
+[Відос з прикладом роботи](READMEfiles/pr2.3TestCode.mp4)
 
 ```cpp
 /* USER CODE BEGIN PFP */
