@@ -32,6 +32,7 @@ stm32_practical.code-workspace
 */.cproject
 */.mxproject
 */.project
+.project
 */*Debug.cfg
 */*Debug.launch
 */STM32F103C8TX_FLASH.ld
@@ -40,11 +41,13 @@ stm32_practical.code-workspace
 !.gitignore
 
 !/1pr/askAnswer.md
-
 !*/*.ioc
 !*/README.md
 !*/READMEfiles/
 !*/READMEfiles/*
+# Чого без 2 нижніх рядків 2pr/Core/Src/main.c ігнорується? :(
+!*/Core/Src/
+*/Core/Src/*
 !*/Core/Src/main.c
 !*/Build+Flash/Flash.bat
 !*/Build+Flash/*.bin
@@ -55,3 +58,4 @@ stm32_practical.code-workspace
 !tutorials/
 !tutorials/*/
 
+!2pr/Core/Src/main.c

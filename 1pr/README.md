@@ -1,4 +1,4 @@
-# Morse code BluePill STM32F103C8
+# Morse code BluePill юююююю
 
 [Увесь код для мікроконтроллера](Core/Src/main.c)
 
