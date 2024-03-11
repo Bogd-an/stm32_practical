@@ -7,11 +7,11 @@
 збільшуватись в два рази, максимум до 64 Гц. Після чого світлодіод
 повинен загаснути. У разі відпускання кнопки світлодіод вмикається на
 секунду та гасне.
-
 ---
 [Увесь код main.c](Core/Src/main.c)
 
-[Відос з прикладом роботи](READMEfiles/pr2.3TestCode.mp4)
+[Відос з прикладом роботи](https://github.com/Bogd-an/stm32_practical/raw/main/2pr/READMEfiles/PLAYpr2.3TestCode.html)
+
 ```cpp
 /* USER CODE BEGIN PFP */
 int button_pressed (void);
