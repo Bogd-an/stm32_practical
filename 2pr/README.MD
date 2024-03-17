@@ -9,7 +9,7 @@
 секунду та гасне.
 ---
 [Увесь код main.c](Core/Src/main.c)
-
+<video controls src="READMEfiles/pr2.3TestCode.mp4" title="Title"></video>
 [Відос з прикладом роботи](READMEfiles/pr2.3TestCode.mp4)
 
 ```cpp
@@ -21,8 +21,8 @@ int button_pressed (void);
 /* USER CODE BEGIN WHILE */
 uint32_t previousMillisFrequency = HAL_GetTick();
 uint32_t previousMillisLongPress = HAL_GetTick();
-int  frequencyBlink = 2;
-int  buttonState = 0;
+int8_t   frequencyBlink = 2;
+int8_t   buttonState = 0;
 ```
 ```cpp
 /* USER CODE BEGIN 3 */
@@ -55,7 +55,7 @@ else if(frequencyBlink == 0){
 
 ```cpp
 /* USER CODE BEGIN 4 */ 
-int button_pressed (void){
+int32_t button_pressed (void){
 // 0 - not press, 1 - short, 2 - long
 	uint32_t count = 1;
 	uint8_t flag = 0;

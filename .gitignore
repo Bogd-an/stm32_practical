@@ -12,12 +12,13 @@
 # */tutorials/*
 
 # ignore 
-
+Лабораторні роботи з Мікроконтролерів 3к.pdf
+.vscode
 
 # */
-
+!*/Flash.bat
 */.vscode/
-*/.vscode/*
+*/.vscode/*s
 stm32_practical.code-workspace
 
 */.metadata/
