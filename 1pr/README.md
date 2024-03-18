@@ -1,4 +1,4 @@
-# Morse code BluePill юююююю
+# Morse code BluePill 
 
 [Увесь код для мікроконтроллера](Core/Src/main.c)
 

@@ -10,7 +10,7 @@
 # .gitignore
 # */TestAlgoritm/*
 # */tutorials/*
-
+.metadata
 # ignore 
 Лабораторні роботи з Мікроконтролерів 3к.pdf
 .vscode
