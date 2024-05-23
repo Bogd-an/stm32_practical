@@ -173,8 +173,10 @@ static void MX_TIM2_Init(void)
   /* USER CODE END TIM2_Init 1 */
   htim2.Instance = TIM2;
   htim2.Init.Prescaler = 7206;
+  // htim2.Init.Prescaler = 7199;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim2.Init.Period = 1;
+  htim2.Init.Period = 999;
+  // htim2.Init.Period = 1;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
@@ -307,7 +309,7 @@ void tim2tick(){
     blinkCount = numberRandom*2;
   } else if(key_pressed == 'A') isRandomMode = 1;
 
-  if(++tickCustom<200) return;tickCustom=0;
+  if(++tickCustom<200) return; tickCustom=0;
 
   if(isRandomMode){
     numberRandom = (HAL_GetTick()/2+1) % 10; //типу rand

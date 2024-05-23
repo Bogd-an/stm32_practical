@@ -40,3 +40,6 @@ TODO: скинути сюди
 ``` c
 TODO: скинути сюди
 ```
+
+## Демонстрація роботи
+[![youtube video demonstration](https://img.youtube.com/vi/hnEpnhYboJU/0.jpg)](https://www.youtube.com/watch?v=hnEpnhYboJU)
