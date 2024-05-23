@@ -4,8 +4,13 @@
 /STM32-for-VSCode.config.yaml
 /STM32Make.make
 /build/*
+/Flash.bat
+/Make.bat
+/build/4.0.bin
+/4pr.code-workspace
+/build
 
-!/build/4.0.bin
 !/Core/Src/led7display.h
+!/Core/Src/led7display4digit.h
 !/Core/Src/keyPad.h
 !/Core/Src/stm32f1xx_it.c
