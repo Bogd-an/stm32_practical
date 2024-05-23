@@ -5,7 +5,6 @@
 /STM32Make.make
 /build/*
 
-!/build/4.0.bin
-!/Core/Src/led7display.h
-!/Core/Src/keyPad.h
+!/Core/Src/led7display4digit.h
+!/Core/Src/keypad.h
 !/Core/Src/stm32f1xx_it.c
