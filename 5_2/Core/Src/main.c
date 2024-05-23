@@ -34,7 +34,7 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 //!
-#define DEBUG_DISP
+//#define DEBUG_DISP
 #define GET_TIME(h_m_s) \
 	(__TIME__) ? (__TIME__[h_m_s*3] - '0') * 10 + (__TIME__[h_m_s*3+1] - '0') : 0
 /* USER CODE END PD */

@@ -127,3 +127,11 @@ void tim2tick(){
 tim2tick();
 /* USER CODE END SysTick_IRQn 1 */
 ```
+
+---
+
+## Демонстрація в режимі ГОД:ХВ
+![alt text](READMEfiles/5pr_demonstration.gif)
+
+## Демонстрація в режимі ХВ:CЕК (#define DEBUG)
+![alt text](READMEfiles/5pr_demonstration_debug.gif)
